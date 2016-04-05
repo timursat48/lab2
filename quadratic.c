@@ -26,4 +26,20 @@ int quadratic_equation (int a, int b, int c)
     }
 
 }
+
+int main ()
+{
+
+    int  a, b, c;
+    printf("Input a: ");
+    scanf("%d", &a);
+    printf ("Input b: ");
+    scanf("%d", &b);
+    printf("Input c: ");
+    scanf("%d", &c);
+    quadratic_equation (a, b, c);
+
+    getchar();
+    getchar();
+    return 0;
 }
